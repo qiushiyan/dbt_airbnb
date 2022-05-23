@@ -1,0 +1,12 @@
+version: 2
+exposures:
+  - name: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://5133f3ab.us2a.app.preset.io/superset/dashboard/p/d5OZMl3eJLr/
+    description: Executive Dashboard about Airbnb listings and hosts
+    depends_on:
+      - ref('mart_fullmoon_reviews')
+    owner:
+      name: Qiushi Yan
+      email: qiushi.yann@gmail.com
